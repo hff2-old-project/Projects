@@ -10,3 +10,28 @@ html {
   /* 1rem will be 10px */
   font-size: 62.5%;
 }
+
+h1 {
+  font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4,
+h5 {
+  font-size: 2.8rem;
+}
