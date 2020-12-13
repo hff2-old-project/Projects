@@ -23,7 +23,7 @@
       <nav>
         <h1 id="logo">Travelly</h1>
         <ul>
-          <li><a href="#location">Location</a></li>
+          <li><a href="#locations">Location</a></li>
           <li><a href="#benefits">Benefits</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -48,7 +48,7 @@
         <img src="img/cloud.png" class="moving-cloud-2 cloud" />
       </header>
     </section>
-    <section class="benefits">
+    <section id="benefits">
       <header class="benefits-head">
         <h2>The Perfect Travel</h2>
         <h3>
@@ -85,18 +85,34 @@
         <header class="form-head">
           <h2>Contact Us</h2>
         </header>
-        <form>
+        <form action="https://formspree.io/f/mnqoggek" method="POST">
           <div class="name-form">
             <label for="name">Name:</label>
             <input type="text" name="name" required />
           </div>
           <div class="email-form">
             <label for="email">Email:</label>
-            <input type="email" name="email" required name="email" />
+            <input type="email" name="email" required name="_replyto" />
           </div>
-          <button type="submit">Submit</button>
+          <button value="Send" type="submit">Submit</button>
         </form>
       </div>
     </scection>
+    <footer>
+      <div class="footer-wrapper">
+        <h5>Travelly &copy;</h5>
+        <ul>
+          <li>
+            <a href="#"><img src="icons/twitter.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/youtube.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/instagram.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
