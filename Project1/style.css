@@ -98,7 +98,7 @@ nav ul {
   font-weight: 400;
 }
 
-.hero {
+#hero {
   min-height: 90vh;
   /* img setting */
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
@@ -115,7 +115,7 @@ nav ul {
   text-align: center;
 }
 
-.hero h3 {
+#hero h3 {
   padding: 5rem;
 }
 
