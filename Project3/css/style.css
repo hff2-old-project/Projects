@@ -109,6 +109,43 @@ form {
   transition: 0.3s;
 }
 
+.input-div:before,
+.input-div:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #38d39f;
+  transition: 0.4s;
+}
+
+.input-div:before {
+  right: 50%;
+}
+
+.input-div:after {
+  left: 50%;
+}
+
+.input-div.focus:before,
+.input-div.focus:after {
+  width: 50%;
+}
+
+.input-div.focus > div > h5 {
+  top: -5px;
+  font-size: 15px;
+}
+
+.input-div.focus > .i > i {
+  color: #38d39f;
+}
+
+.input-div.pass {
+  margin-bottom: 4px;
+}
+
 /* 輸入框框的外框去除 */
 .input-div > div > input {
   position: absolute;
@@ -147,7 +184,7 @@ a:hover {
   border-radius: 25px;
   outline: none;
   border: none;
-  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-image: linear-gradient(to right, #efa52c, #da921f, #db8b0a);
   background-size: 200%;
   font-size: 1.2rem;
   color: #fff;
